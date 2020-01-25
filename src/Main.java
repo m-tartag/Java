@@ -9,23 +9,23 @@ public class Main {
         displayHighScorePosition("Luigi", calculateHighScorePosition(50));
     }
 
-    public static int calculateScore(boolean gameOver, int score, int levelCompleted, int bonus) {
+    public static void calculateScore(boolean gameOver, int score, int levelCompleted, int bonus) {
         if (gameOver) {
             int finalScore = score + (levelCompleted * bonus);
             finalScore += 2000;
             System.out.println("Your Final Score Was: " + finalScore);
         }
-        return -1;
+
     }
 
     public static int calculateHighScorePosition(int score) {
         if (score > 1000) {
             return 1;
         }
-        if (score > 500 && score < 1000 ) {
+        else if (score > 500 && score < 1000 ) {
             return 2;
         }
-        if (score > 100 && score < 500 ) {
+        else if (score > 100 && score < 500 ) {
             return 3;
         }
         return 4;
