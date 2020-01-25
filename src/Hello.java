@@ -10,9 +10,10 @@ public class Hello {
 
         int MAXX = Integer.MAX_VALUE;
         byte b_MAXX = Byte.MAX_VALUE;
+        double d_MAXX = Double.MAX_VALUE;
 
 
-        System.out.println(b_MAXX);
+        System.out.println(d_MAXX);
 
     }
 
