@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -7,6 +9,16 @@ public class Main {
         displayHighScorePosition("Richard", calculateHighScorePosition(900));
         displayHighScorePosition("Nicholas", calculateHighScorePosition(400));
         displayHighScorePosition("Luigi", calculateHighScorePosition(50));
+
+        ArrayList<String> al=new ArrayList<String>();
+        al.add("John");
+        al.add("George");
+        al.add("Ringo");
+        al.add("Paul");
+        al.add("Pete");
+        for (String names : al) {
+            System.out.println(names);
+        }
     }
 
     public static void calculateScore(boolean gameOver, int score, int levelCompleted, int bonus) {
@@ -35,4 +47,7 @@ public class Main {
         System.out.println(name + " managed to secure rank: " + position);
         return 0;
     }
+//    public static int sortHighScores(int[] ARRAY) {
+//
+//    }
 }
