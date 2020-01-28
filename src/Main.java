@@ -16,6 +16,7 @@ public class Main {
         al.add("Ringo");
         al.add("Paul");
         al.add("Pete");
+        al.add("Michael");
         for (String names : al) {
             System.out.println(names);
         }
