@@ -2,10 +2,13 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Car porsche = new Car();
-        porsche.setModel("Ayy");
+        Account Matt = new Account();
 
-        System.out.println("Model: " + porsche.getModel());
+        Matt.deposit(3000);
+//        Car porsche = new Car();
+//        porsche.setModel("Ayy");
+//
+//        System.out.println("Model: " + porsche.getModel());
 
 //        calculateScore(true, 9900, 13, 100);
 //        displayHighScorePosition("Matthew", calculateHighScorePosition(1500));
