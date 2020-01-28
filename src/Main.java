@@ -4,10 +4,41 @@ public class Main {
 
         Account Matt = new Account();
 
+        Matt.setBalance(10000);
+        Matt.setCustomerName("Matthew Tartaglia");
+        Matt.setCustomerEmail("mattbrs51@gmail.com");
+        Matt.setCustomerPhoneNumber("(401) 888-8888");
+        Matt.setNumber("0001");
+
         Matt.deposit(3000);
+        Matt.withdrawalAmount(3001);
+
+
+
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //        Car porsche = new Car();
 //        porsche.setModel("Ayy");
-//
 //        System.out.println("Model: " + porsche.getModel());
 
 //        calculateScore(true, 9900, 13, 100);
@@ -56,5 +87,3 @@ public class Main {
 //    }
 ////    public static int sortHighScores(int[] ARRAY) {
 ////
-    }
-}
