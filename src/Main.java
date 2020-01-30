@@ -9,7 +9,6 @@ public class Main {
         Matt.setCustomerEmail("mattbrs51@gmail.com");
         Matt.setCustomerPhoneNumber("(401) 888-8888");
         Matt.setNumber("0001");
-
         Matt.deposit(3000);
         Matt.withdrawalAmount(3001);
 
